@@ -1,0 +1,25 @@
+{
+    "version": "2.2.2",
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "jsx": "react",
+        "sourceMap": false,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "outDir": "lib",
+        "noImplicitAny": true,
+        "baseUrl": ".",
+        "declaration": true,
+        "allowJs": true
+    },
+    "include": [
+        "src/main.ts"
+    ],
+    "exclude": [
+        "build",
+        "coverage",
+        "docs",
+        "node_modules"
+    ]
+}
